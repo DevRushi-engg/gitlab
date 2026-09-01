@@ -8,4 +8,4 @@ jobs:
       - name: Show the commit
         run: echo "Commit: $GITHUB_SHA"
       - name: List the files
-      - run: ls -la
+        run: ls -la
