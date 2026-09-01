@@ -5,4 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Hello from Rushikesh to Github Actions!"
+      - run: echo "Hello from Rushikesh to Github Actions!" > greet.txt
+      - run: cat greet.txt
